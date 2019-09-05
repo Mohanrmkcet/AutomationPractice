@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="40.010588">
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user validate the automation practice home page" time="14.431949">
+<system-out><![CDATA[Given User hit the Automation practice website..............................passed
+Then User verifes the site logo.............................................passed
+And User verifies the page title............................................passed
+Then User click on Signin Button in Header..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user login the application with valid credentials" time="3.358579">
+<system-out><![CDATA[When User enter the email id 'venkat@gmail.com' in the login page...........passed
+And User enter the password '123456789' in the login page...................passed
+And User click on Login Button in the Login Page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user search the product in the product page" time="3.553806">
+<system-out><![CDATA[When User enters the product type in search field...........................passed
+And User click on search button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user whether the product is added to cart" time="8.066443">
+<system-out><![CDATA[When User verifies the top sellers title is displayed.......................passed
+And User click on the product...............................................passed
+And User click on add to cart button........................................passed
+Then User click on proceed to checkout button in product page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user whether the order details is displayed in Summary" time="2.26657">
+<system-out><![CDATA[Then User click on proceed to checkout button in Summary page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify whether the delivery address is added" time="1.909479">
+<system-out><![CDATA[Then User click on proceed to checkout button in Address page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify whether the shipping option is selected" time="2.112436">
+<system-out><![CDATA[And User click on terms and condition checkbox..............................passed
+Then User click on proceed to checkout button in shipping option page.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify whether the payment method is selected" time="0.077296">
+<system-out><![CDATA[When User verifies whether payment option title 'PLEASE CHOOSE YOUR PAYMENT METHOD' is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify whether the order summary is displayed" time="1.859302">
+<system-out><![CDATA[Then User click on Pay by bank wire option for the payment..................passed
+When User verifies the payment method with total amount is displayed........passed
+Then User click on confirm my order button in Order summary page............passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify whether the order is confirmed" time="2.374728">
+<system-out><![CDATA[Then User click on sign out button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,688 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 290600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify user validate the automation practice home page",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-validate-the-automation-practice-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 445800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9022929100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User hit the Automation practice website",
+            "match": {
+              "location": "StepDefinition.user_hit_the_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161179400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifes the site logo",
+            "match": {
+              "location": "StepDefinition.user_verifes_the_site_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29886700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verifies the page title",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5217217200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Signin Button in Header",
+            "match": {
+              "location": "StepDefinition.user_click_on_Signin_Button_in_Header()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Homepage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 193800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify user login the application with valid credentials",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-login-the-application-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 45400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 461458700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter the email id \u0027venkat@gmail.com\u0027 in the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "venkat@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_email_id_in_the_login_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392306900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the password \u0027123456789\u0027 in the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_password_in_the_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2504574300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on Login Button in the Login Page",
+            "match": {
+              "location": "StepDefinition.user_click_on_Login_Button_in_the_Login_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Loginpage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 66600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify user search the product in the product page",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-search-the-product-in-the-product-page",
+        "after": [
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253634800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters the product type in search field",
+            "match": {
+              "location": "StepDefinition.user_enters_the_product_type_in_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3300020100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on search button",
+            "match": {
+              "location": "StepDefinition.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Productsearch"
+          },
+          {
+            "line": 19,
+            "name": "@demo"
+          },
+          {
+            "line": 19,
+            "name": "@zero"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 150700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify user whether the product is added to cart",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-whether-the-product-is-added-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 318500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92968600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User verifies the top sellers title is displayed",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_top_sellers_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3686880700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on the product",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232442200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on add to cart button",
+            "match": {
+              "location": "StepDefinition.user_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4053681900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on proceed to checkout button in product page",
+            "match": {
+              "location": "StepDefinition.user_click_on_proceed_to_checkout_button_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Addingtocart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 246400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify user whether the order details is displayed in Summary",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-whether-the-order-details-is-displayed-in-summary",
+        "after": [
+          {
+            "result": {
+              "duration": 146800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2266177300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on proceed to checkout button in Summary page",
+            "match": {
+              "location": "StepDefinition.user_click_on_proceed_to_checkout_button_in_Summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Summarypage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 185500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verify whether the delivery address is added",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-whether-the-delivery-address-is-added",
+        "after": [
+          {
+            "result": {
+              "duration": 236000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1909057200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click on proceed to checkout button in Address page",
+            "match": {
+              "location": "StepDefinition.user_click_on_proceed_to_checkout_button_in_Address_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@Addresspage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 183300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify whether the shipping option is selected",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-whether-the-shipping-option-is-selected",
+        "after": [
+          {
+            "result": {
+              "duration": 135800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 365206100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User click on terms and condition checkbox",
+            "match": {
+              "location": "StepDefinition.user_click_on_terms_and_condition_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1746910400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on proceed to checkout button in shipping option page",
+            "match": {
+              "location": "StepDefinition.user_click_on_proceed_to_checkout_button_in_shipping_option_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@Shippingpage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 124400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify whether the payment method is selected",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-whether-the-payment-method-is-selected",
+        "after": [
+          {
+            "result": {
+              "duration": 72200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77099200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User verifies whether payment option title \u0027PLEASE CHOOSE YOUR PAYMENT METHOD\u0027 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PLEASE CHOOSE YOUR PAYMENT METHOD",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.user_verifies_whether_payment_option_title_is_displayed(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@Paymentpage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Verify whether the order summary is displayed",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-whether-the-order-summary-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 232900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1562964200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User click on Pay by bank wire option for the payment",
+            "match": {
+              "location": "StepDefinition.user_click_on_Pay_by_bank_wire_option_for_the_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95893000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User verifies the payment method with total amount is displayed",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_payment_method_with_total_amount_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200103100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User click on confirm my order button in Order summary page",
+            "match": {
+              "location": "StepDefinition.user_click_on_confirm_my_order_button_in_Order_summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@Ordersummary"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Verify whether the order is confirmed",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-whether-the-order-is-confirmed",
+        "after": [
+          {
+            "result": {
+              "duration": 145500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2374511400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User click on sign out button",
+            "match": {
+              "location": "StepDefinition.user_click_on_sign_out_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 54,
+            "name": "@Orderconfirmation"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice End to End Test automation scenario",
+    "description": "This feature file includes Login, Search the product, adding to cart, adding the address, selecting the \r\npayment method and placing the order.",
+    "id": "automation-practice-end-to-end-test-automation-scenario",
+    "keyword": "Feature",
+    "uri": "Automationpractice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@APendtoend"
+      }
+    ]
+  }
+]
